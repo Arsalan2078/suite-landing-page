@@ -1,0 +1,49 @@
+:root {
+    // colors
+    --clr-neutral-900: rgb(23 35 57);
+    --clr-neutral-500: rgb(73 86 109);
+    --clr-neutral-200: rgb(243 237 231);
+    --clr-neutral-0: rgb(250 248 246);
+    --clr-purple: rgb(203 48 227);
+
+    --grd-light: linear-gradient(
+        135deg,
+        rgb(160 96 255) 0%,
+        rgb(203 48 227) 49.21%,
+        rgb(255, 168, 78) 100%
+    );
+
+    // fonts
+    --ff-epilogue: "Epilogue", sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --fs-1: clamp(3.5rem, 2.3571rem + 2.381vw, 4.5rem);
+    --fs-2: 3rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1.125rem;
+    --fs-6: 1rem;
+    --fs-7: 1rem;
+    --fs-8: 0.9375rem;
+
+    --ls-1: calc(-1 * clamp(0.0331rem, 0.0175rem + 0.0651vw, 0.0488rem));
+    --ls-2: calc(-0.5 / 16 * 1rem);
+    --ls-3: calc(0.11 / 16 * 1rem);
+    --ls-4: calc(-0.18 / 16 * 1rem); 
+    --ls-5: calc(0.1 / 16 * 1rem);
+    --ls-6: calc(-0.16 / 16 * 1rem);
+    --ls-7: calc(2.5 / 16 * 1rem);
+    --ls-8: 0;
+
+    --lh-110: 1.1;
+    --lh-120: 1.2;
+    --lh-150: 1.5;
+    --lh-160: 1.6;
+
+    @media screen and (min-width: calc(768 / 16 * 1rem)) {
+        --fs-1: clamp(2.375rem, 1.25rem + 4.6875vw, 3.5rem);
+        --ls-1: calc(-1 * clamp(0.0488rem, 0.033rem + 0.0327vw, 0.0625rem));
+    }
+}
